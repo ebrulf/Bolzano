@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
-    <Platforms>AnyCPU;x64</Platforms>
+    <Platforms>x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,16 +14,16 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
     <PackageReference Include="NUnit" Version="4.4.0" />
     <PackageReference Include="NUnit.Analyzers" Version="4.11.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="NUnit3TestAdapter" Version="5.2.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="6.0.0" />
     <PackageReference Include="QuikGraph.Graphviz" Version="2.5.0" />
     <PackageReference Include="QuikGraph.Serialization" Version="2.5.0" />
-    <PackageReference Include="System.CommandLine" Version="2.0.0-rc.2.25502.107" />
+    <PackageReference Include="System.CommandLine" Version="2.0.1" />
   </ItemGroup>
 
   <ItemGroup>

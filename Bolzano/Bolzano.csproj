@@ -15,7 +15,7 @@
     </PackageReference>
     <PackageReference Include="QuikGraph.Graphviz" Version="2.5.0" />
     <PackageReference Include="QuikGraph.Serialization" Version="2.5.0" />
-    <PackageReference Include="System.CommandLine" Version="2.0.0-rc.2.25502.107" />
+    <PackageReference Include="System.CommandLine" Version="2.0.1" />
   </ItemGroup>
 
 </Project>
