@@ -12,7 +12,7 @@ namespace Testy
         [SetUp]
         public void Setup()
         {
-            edges = new[] { new Edge<int>(1, 2), new Edge<int>(0, 1) };
+            edges = [new Edge<int>(1, 2), new Edge<int>(0, 1)];
             graph = edges.ToAdjacencyGraph<int, Edge<int>>();
             graph2 = null;
             Console.WriteLine("Wykonuję testy");
